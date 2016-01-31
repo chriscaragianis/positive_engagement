@@ -1,4 +1,4 @@
-Feature: reporting 
+Feature: reporting
 
   Scenario: A community member asks for help dealing with an offensive or
     abusive Bernie supporter on Twitter
@@ -14,8 +14,7 @@ Feature: reporting
     Given a community member at the report page
     And the issue report form is completed
     And a community member clicks submit
-    Then the issue is created
-    And the issue is saved
+    Then the issue is created and saved
     And the issue is reported to a counselor
 
   Scenario: A community member receives requested feedback on issue

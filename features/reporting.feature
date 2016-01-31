@@ -1,3 +1,5 @@
+Feature: reporting 
+
   Scenario: A community member asks for help dealing with an offensive or
     abusive Bernie supporter on Twitter
     Given a community member visits the site

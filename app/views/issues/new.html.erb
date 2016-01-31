@@ -1,0 +1,29 @@
+We want to help
+
+<%= form_tag(:action => "create") do %>
+
+  <p>
+    <%= label_tag(:issue_url) %>
+    <%= text_field_tag(:issue_url)%>
+  </p>
+
+  <p>
+    <%= label_tag(:issue_contact) %>
+    <%= text_field_tag(:issue_contact)%>
+  </p>
+
+  <p>
+    <%= label_tag(:feedback_email) %>
+    <%= text_field_tag(:feedback_email)%>
+  </p>
+
+  <p>
+    <%= label_tag(:feedback_twitter) %>
+    <%= text_field_tag(:feedback_twitter)%>
+  </p>
+
+  <p>
+    <%= submit_tag("Submit report", id: "submit") %>
+  </p>
+
+<% end %>

@@ -6,18 +6,18 @@
 
   Scenario: A community member reports offensive or abusive behavior
     Given a community member at the report page
-    Then the incident report form is displayed
+    Then the issue report form is displayed
 
-  Scenario: A community member submits info on an incident
+  Scenario: A community member submits info on an issue
     Given a community member at the report page
-    And the incident report form is completed
+    And the issue report form is completed
     And a community member clicks submit
-    Then the incident is created
-    And the incident is saved
-    And the incident is reported to a counselor
+    Then the issue is created
+    And the issue is saved
+    And the issue is reported to a counselor
 
-  Scenario: A community member receives requested feedback on incident
+  Scenario: A community member receives requested feedback on issue
     resolution
-    Given a counselor submits a resolved incident
+    Given a counselor submits a resolved issue
     And anonymity has not been requested
     Then a mail is generated containing the resolution

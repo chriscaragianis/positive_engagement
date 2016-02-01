@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   get '/report' => 'welcome#report'
   post 'submit_report' => 'welcome#submit_report'
 
-  resource :issues
+  resources :issues
+  resources :users
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

@@ -13,14 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20160201032106) do
 
-  create_table "helpers", force: :cascade do |t|
-    t.string   "uname"
-    t.string   "email"
-    t.boolean  "vetted"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "issues", force: :cascade do |t|
     t.string   "issue_url"
     t.string   "issue_twitter"

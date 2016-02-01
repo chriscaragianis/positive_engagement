@@ -4,6 +4,10 @@ class IssuesController < ApplicationController
     render 'issues/new'
   end
 
+  def index
+    render 'issues/new'
+  end
+
   def create
     iss = Issue.new(account_params)
     iss.save

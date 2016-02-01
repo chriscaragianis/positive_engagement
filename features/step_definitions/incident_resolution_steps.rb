@@ -1,4 +1,4 @@
-Given(/^a counselor receives an issue report$/) do
+Given(/^a helper receives an issue report$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
@@ -14,7 +14,7 @@ Then(/^the issue is removed from unresolved issues$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^a counselor at an issue report page$/) do
+Given(/^a helper at an issue report page$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
@@ -22,7 +22,7 @@ Given(/^the resolution form is completed$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^a counselor clicks submit$/) do
+Given(/^a helper clicks submit$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 

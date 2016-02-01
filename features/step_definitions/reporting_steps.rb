@@ -37,11 +37,11 @@ Then(/^the issue is created and saved$/) do
   expect(Issue.last.feedback_email).to eq("me@email.com")
 end
 
-Then(/^the issue is reported to a counselor$/) do
+Then(/^the issue is reported to a helper$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^a counselor submits a resolved issue$/) do
+Given(/^a helper submits a resolved issue$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 

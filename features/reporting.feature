@@ -15,10 +15,10 @@ Feature: reporting
     And the issue report form is completed
     And a community member clicks submit
     Then the issue is created and saved
-    And the issue is reported to a counselor
+    And the issue is reported to a helper
 
   Scenario: A community member receives requested feedback on issue
     resolution
-    Given a counselor submits a resolved issue
+    Given a helper submits a resolved issue
     And anonymity has not been requested
     Then a mail is generated containing the resolution
